@@ -20,7 +20,7 @@ SET PATH=%PF86%\Microsoft Visual Studio 14.0\VC\bin;%~dp0;%path%
 set CMAKE_COMPILER_PATH=%PF86%\Microsoft Visual Studio 14.0\VC\bin
 set SETUPAPI_LIBRARY=c:\Program Files (x86)\Windows Kits\10\Lib\10.0.14393.0\um\x86\SetupAPI.Lib
 
-set QT_PLUGIN_PATH=%OSGEO4W_ROOT%\apps\qgis-dev\qtplugins;%OSGEO4W_ROOT%\apps\qt5\plugins
+set QT_PLUGIN_PATH=%OSGEO4W_ROOT%\apps\qgis-dev\qtplugins;"%OSGEO4W_ROOT%\apps\Qt5\plugins"
 
 set PYTHONPATH=
 SET PATH=%PATH%;F:\dev\build-tools\GnuWin32\bin;%PF86%\CMake\bin
